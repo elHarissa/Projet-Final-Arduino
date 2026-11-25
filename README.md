@@ -21,4 +21,5 @@ Arris:
 -conception du circuit
 -code le joystick
 
-diagram: ![diagram](image.png)
+diagram: 
+![diagram](image.png)
