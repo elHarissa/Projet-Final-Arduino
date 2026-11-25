@@ -4,12 +4,13 @@ import random
 
 MAX_DUTY = 1023 
 
-led = PWM(Pin(Pin.board.A7, Pin.OUT))
+led_r = PWM(Pin(Pin.board.A1, Pin.OUT))
+led_g = PWM(Pin(Pin.board.A3, Pin.OUT))
+led_b = PWM(Pin(Pin.board.A3, Pin.OUT))
 
-btn = Pin(Pin.board.A6)
-
-adc = ADC(Pin(Pin.board.A3))
-adc.atten(ADC.ATTN_11DB)  
+cursor_x = A6
+cursor_y = A7
+cursor_btn = D2
 
 i2c = I2C(0, scl=Pin(Pin.board.A5), sda=Pin(Pin.board.A4))
 adresse_matrice = 0x70  
