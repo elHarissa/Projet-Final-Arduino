@@ -23,3 +23,11 @@ Arris:
 
 diagram: 
 ![diagram](image.png)
+
+
+
+Attribution des broches:
+i2c = scl:A5 sda:a4
+joystick = x:A6 y:A7 btn:D2
+LED rgb = r:A1 g:A2 b:A3
+tilt sensor = D6
